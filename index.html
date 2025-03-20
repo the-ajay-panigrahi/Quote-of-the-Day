@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote of the Day</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Quote of the Day</h1>
+    <div id="quote-container">
+      <section>
+        <span id="quote"></span>
+        <span id="author"></span>
+      </section>
+      <button id="copy-btn" onclick="copyQuote()">Copy</button>
+      <button onclick="fetchQuotes()">New Quote</button>
+      <button id="share-btn" onclick="shareOnTwitter()">
+        Share on Twitter
+      </button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
